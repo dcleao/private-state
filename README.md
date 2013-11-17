@@ -62,9 +62,9 @@ For [node.js](http://nodejs.org/), just execute the following on the command lin
 $ npm install private-state --save-dev
 ```
 
-For the browser environment, `private -state` is available in two flavors:
-* an anonymous AMD module: [private-state.amd.min.js](https://raw.github.com/dcleao/private-state/master/dist/amd/private-state.amd.min.js) [Minified: 472 bytes, Gzipped:  145 bytes]
-* a global state polluting module, that installs itself in the global variable `privateState`: [private-state.glob.min.js](https://raw.github.com/dcleao/private-state/master/dist/global/private-state.glob.min.js) [Minified: 479 bytes, Gzipped:  147 bytes]
+For the browser environment, `private-state` is available in two flavors:
+* an anonymous AMD module: [private-state.amd.min.js](https://raw.github.com/dcleao/private-state/master/dist/amd/private-state.amd.min.js) [min: 472B, gzip: 145B]
+* a global state polluting module, that installs itself in the global variable `privateState`: [private-state.glob.min.js](https://raw.github.com/dcleao/private-state/master/dist/global/private-state.glob.min.js) [min: 479B, gzip: 147B]
 
 ## Source and Tests
 
