@@ -1,0 +1,18 @@
+{
+  "name":    "private-state",
+  "version": "0.1.0",
+  "main":    "dist/global/private-state.glob.js",
+  "ignore": [
+    ".DS_Store",
+    ".git",
+    ".gitignore",
+    ".npmignore",
+    "node_modules",
+    "package.json",
+    "karma.conf.js",
+    "src",
+    "test",
+    "build",
+    "dist/node"
+  ]
+}
