@@ -59,7 +59,7 @@ define('robot', ['private-state'], function(privState) {
 For [node.js](http://nodejs.org/), just execute the following on the command line:
 
 ```
-$ npm install private-state --save-dev
+$ npm install private-state
 ```
 
 For the browser environment, `private-state` is available in two flavors:
