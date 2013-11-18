@@ -1,7 +1,26 @@
 {
   "name":    "private-state",
   "version": "0.1.1",
+  "description": "A JavaScript utility for managing (really) true per object private state.",
+  "keywords": [
+    "JavaScript",
+    "private",
+    "safe factory",
+    "pattern"
+  ],
   "main":    "dist/global/private-state.glob.js",
+  "license": "MIT",
+  "authors": [
+    {
+      "name":     "Duarte Cunha Leão",
+      "email":    "duarte.leao@gmail.com",
+      "homepage": "https://github.com/dcleao"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/dcleao/private-state.git"
+  },
   "ignore": [
     ".DS_Store",
     ".git",
