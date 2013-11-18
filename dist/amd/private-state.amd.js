@@ -1,7 +1,7 @@
 define(function() {
   "use strict";
   var U, priv = {
-    version: "0.1.0"
+    version: "0.1.1"
   }, newKey = function() {
     function newSafe(secret) {
       return function() {

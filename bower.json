@@ -1,6 +1,6 @@
 {
   "name":    "private-state",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main":    "dist/global/private-state.glob.js",
   "ignore": [
     ".DS_Store",
@@ -10,6 +10,7 @@
     "node_modules",
     "package.json",
     "karma.conf.js",
+    "gruntfile.js",
     "src",
     "test",
     "build",

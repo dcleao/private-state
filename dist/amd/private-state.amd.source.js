@@ -1,6 +1,6 @@
 define(function() {
 "use strict";
-var priv = {version: "0.1.0"}; // semver
+var priv = {version: "0.1.1"}; // semver
 var U; // = undefined;
 
 var newKey = function() {
