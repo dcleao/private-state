@@ -1,4 +1,4 @@
-define(['private-state.amd'], function(priv) {
+define(['private-state'], function(priv) {
 
     describe("Private", function() {
         it("should be possible to create a key", function() {

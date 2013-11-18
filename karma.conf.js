@@ -12,7 +12,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'test/test-main.js',
-      {pattern: 'dist/amd/private-state.amd.js', included: false},
+      {pattern: 'dist/amd/private-state.js', included: false},
       {pattern: 'test/**/*-spec.js', included: false}
     ],
 

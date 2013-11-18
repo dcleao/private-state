@@ -1,6 +1,6 @@
 {
   "name":    "private-state",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A JavaScript utility for managing (really) true per object private state.",
   "keywords": [
     "JavaScript",
@@ -8,7 +8,7 @@
     "safe factory",
     "pattern"
   ],
-  "main":    "dist/global/private-state.glob.js",
+  "main":    "dist/global/private-state.js",
   "license": "MIT",
   "authors": [
     {

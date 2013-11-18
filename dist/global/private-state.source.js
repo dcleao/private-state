@@ -1,6 +1,6 @@
-define(function() {
+privateState = (function() {
 "use strict";
-var priv = {version: "0.1.1"}; // semver
+var priv = {version: "0.1.2"}; // semver
 var U; // = undefined;
 
 var newKey = function() {
@@ -67,4 +67,4 @@ var prop_random = function() {
 
 priv.key = newKey;
   return priv;
-});
+} ());

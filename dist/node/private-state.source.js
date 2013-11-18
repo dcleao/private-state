@@ -1,5 +1,5 @@
 "use strict";
-var priv = {version: "0.1.1"}; // semver
+var priv = {version: "0.1.2"}; // semver
 module.exports = priv;
 
 var U; // = undefined;

@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 
     concat: {
       amd: {
-        dest: 'dist/amd/<%= name %>.amd.source.js',
+        dest: 'dist/amd/<%= name %>.source.js',
         src: [
           'build/amd-start.js',
           'src/<%= name %>.js',
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
       },
 
       glob: {
-        dest: 'dist/global/<%= name %>.glob.source.js',
+        dest: 'dist/global/<%= name %>.source.js',
         src: [
           'build/global-start.js',
           'src/<%= name %>.js',
@@ -75,15 +75,15 @@ module.exports = function(grunt) {
 
       // Non-minified target
       "amd-non-min": {
-        src:  'dist/amd/<%= name %>.amd.source.js',
-        dest: 'dist/amd/<%= name %>.amd.js',
+        src:  'dist/amd/<%= name %>.source.js',
+        dest: 'dist/amd/<%= name %>.js',
         // Target options
         options: uglifyNonMinOptions
       },
 
       "glob-non-min": {
-        src:  'dist/global/<%= name %>.glob.source.js',
-        dest: 'dist/global/<%= name %>.glob.js',
+        src:  'dist/global/<%= name %>.source.js',
+        dest: 'dist/global/<%= name %>.js',
         options: uglifyNonMinOptions
       },
 
@@ -95,15 +95,15 @@ module.exports = function(grunt) {
 
       // Min target
       "amd-min": {
-        src:  'dist/amd/<%= name %>.amd.source.js',
-        dest: 'dist/amd/<%= name %>.amd.min.js',
+        src:  'dist/amd/<%= name %>.source.js',
+        dest: 'dist/amd/<%= name %>.min.js',
         // Target options
         options: uglifyMinOptions
       },
 
       "glob-min": {
-        src:  'dist/global/<%= name %>.glob.source.js',
-        dest: 'dist/global/<%= name %>.glob.min.js',
+        src:  'dist/global/<%= name %>.source.js',
+        dest: 'dist/global/<%= name %>.min.js',
         options: uglifyMinOptions
       },
 
